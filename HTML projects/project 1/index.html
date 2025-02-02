@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact" method="post">
+        <label for="email">Username: </label>
+        <input type="text" id="email" placeholder="Enter your Email" required="true"><br>
+        
+        <label for="pwd">Password: </label>
+        <input type="password" id="pwd" placeholder="Enter your password"><br>
+        
+        <label for="date">Date: </label>
+        <input type="date" id="date" required="true"><br>
+        
+        <label for="file">Upload your resume: </label>
+        <input type="file" id="file" required="true"><br>
+        
+        <label for="colour">Choose your fav color: </label>
+        <input type="color" id="colour" required="true"><br>
+        
+        <label for="reqd_range">Choose your price range: </label>
+        <input type="range" id="reqd_range" required="true"><br>
+        
+        <label for="click_button">Click: </label>
+        <input type="button" id="click_button" value="Click"><br>
+        
+        <label for="male" >Male: </label>
+        <input type="radio" id="male" name="gender" value="Male"><br>
+        <label for="female" >Female: </label>
+        <input type="radio" id="female" name="gender" value="Female"><br>
+        <label for="other" >Other: </label>
+        <input type="radio" id="other" name="gender" value="Other"><br>
+
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruit" value="Apple"><br>
+        <label for="banana">Banana</label>
+        <input type="checkbox" id="banana" name="fruit" value="Banana"><br>
+        <label for="mango">Mango</label>
+        <input type="checkbox" id="mango" name="fruit" value="Mango"><br>
+
+        <label for="country">Country: </label>
+        <select name="Country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Germany">Germany</option>
+            <option value="Other">Other</option>
+        </select><br>
+        
+        <label for="comment">Give your comment: </label>
+        <textarea name="Comments" id="comment">
+        Enter your comments here
+        </textarea><br>
+
+        <iframe width="1000" height="315" src="https://en.wikipedia.org/wiki/Kardashev_scale"></iframe><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
